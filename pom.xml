@@ -6,13 +6,13 @@
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
 		<version>3.0.0-SNAPSHOT</version>
-		<relativePath/> <!-- lookup parent from repository -->
+		<relativePath/>
 	</parent>
 	<groupId>com.github.willyancaetano</groupId>
 	<artifactId>password-validator</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>Password Validator</name>
-	<description>Demo project for Spring Boot</description>
+	<description>API de validações de senha</description>
 	<properties>
 		<java.version>17</java.version>
 	</properties>
@@ -26,6 +26,11 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.commons</groupId>
+			<artifactId>commons-lang3</artifactId>
+			<version>3.12.0</version>
 		</dependency>
 	</dependencies>
 
